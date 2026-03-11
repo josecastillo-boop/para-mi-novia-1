@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Natalie Camila ❤️</title>
+    
+    <!-- Fonts y CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!-- Fondo de partículas animadas -->
+    <div id="particles-js"></div>
+    
+    <!-- Header con parallax -->
+    <header class="header">
+        <div class="header-content">
+            <h1 class="glitch" data-text="Natalie">Natalie</h1>
+            <p class="subtitle">Para la persona más especial en mi vida</p>
+            <div class="scroll-indicator">
+                <span>Nuestra historia comienza aquí</span>
+                <i class="fas fa-chevron-down bounce"></i>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Línea de tiempo interactiva -->
+    <section class="timeline-section">
+        <h2 class="section-title">José Alexander ❤️ Natalie Camila</h2>
+        <div class="timeline">
+            <!-- Primer recuerdo: 6 de abril -->
+            <div class="timeline-item left animate-on-scroll">
+                <div class="timeline-content">
+                    <div class="timeline-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="timeline-date">6 de Abril</div>
+                    <h3>El día que nos conocimos</h3>
+                    <p>En la universidad, sin saber que ese día cambiaría mi vida para siempre.</p>
+                    <div class="timeline-media">
+                        <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=400" alt="Universidad">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Segundo recuerdo: Primer mes -->
+            <div class="timeline-item right animate-on-scroll">
+                <div class="timeline-content">
+                    <div class="timeline-icon">
+                        <i class="fas fa-calendar-heart"></i>
+                    </div>
+                    <div class="timeline-date">Cada 2 de mes</div>
+                    <h3>Nuestro aniversario</h3>
+                    <p>Dos meses, tres meses... cada vez me enamoro más de ti.</p>
+                    <div class="timeline-media">
+                        <img src="https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=400" alt="Aniversario">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Tercer recuerdo: Cumpleaños Natalie -->
+            <div class="timeline-item left animate-on-scroll">
+                <div class="timeline-content">
+                    <div class="timeline-icon">
+                        <i class="fas fa-birthday-cake"></i>
+                    </div>
+                    <div class="timeline-date">22 de Julio</div>
+                    <h3>El cumpleaños de mi princesa</h3>
+                    <p>El día en que el mundo se volvió más bonito porque naciste tú.</p>
+                    <div class="timeline-media">
+                        <img src="https://images.unsplash.com/photo-1464347812175-20b9ba0f7d2a?w=400" alt="Cumpleaños">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Galería 3D -->
+    <section class="gallery-section">
+        <h2 class="section-title">Nuestros Momentos</h2>
+        <div class="gallery-3d">
+            <div class="gallery-item">
+                <div class="gallery-inner">
+                    <img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=400" alt="Universidad">
+                    <div class="gallery-caption">En la universidad</div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-inner">
+                    <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=400" alt="Amor">
+                    <div class="gallery-caption">Tu sonrisa</div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="gallery-inner">
+                    <img src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=400" alt="Pareja">
+                    <div class="gallery-caption">Tú y yo</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Sección de Cartas/Notas -->
+    <section class="letters-section">
+        <h2 class="section-title">Cartas para Natalie</h2>
+        <div class="letters-container">
+            <div class="letter-card" onclick="openLetter(1)">
+                <div class="letter-front">
+                    <i class="fas fa-envelope"></i>
+                    <h3>6 de Abril</h3>
+                </div>
+                <div class="letter-back">
+                    <p>"Ese día en la universidad no sabía que estaba conociendo al amor de mi vida."</p>
+                    <span class="letter-date">Siempre te recordaré</span>
+                </div>
+            </div>
+            
+            <div class="letter-card" onclick="openLetter(2)">
+                <div class="letter-front">
+                    <i class="fas fa-envelope"></i>
+                    <h3>22 de Julio</h3>
+                </div>
+                <div class="letter-back">
+                    <p>"Feliz cumpleaños mi Natalie Camila. Gracias por existir."</p>
+                    <span class="letter-date">Te amo</span>
+                </div>
+            </div>
+            
+            <div class="letter-card" onclick="openLetter(3)">
+                <div class="letter-front">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Para ti</h3>
+                </div>
+                <div class="letter-back">
+                    <p>"Cada 2 de mes celebramos nuestro amor, pero yo te celebro a ti todos los días."</p>
+                    <span class="letter-date">Siempre tuyo, José</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Sección especial de Sabrina Carpenter y Doja Cat -->
+    <section class="music-section">
+        <h2 class="section-title">Música que te gusta</h2>
+        <div class="music-container">
+            <div class="artist-card">
+                <i class="fab fa-itunes-note"></i>
+                <h3>Sabrina Carpenter</h3>
+                <p>Porque cada canción me recuerda a ti</p>
+                <div class="song-bubbles">
+                    <span>Espresso</span>
+                    <span>Nonsense</span>
+                    <span>Feather</span>
+                </div>
+            </div>
+            <div class="artist-card">
+                <i class="fab fa-itunes-note"></i>
+                <h3>Doja Cat</h3>
+                <p>Tu ritmo favorito</p>
+                <div class="song-bubbles">
+                    <span>Paint The Town Red</span>
+                    <span>Kiss Me More</span>
+                    <span>Say So</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Sección de Carapulcra (comida favorita) -->
+    <section class="food-section">
+        <div class="food-container">
+            <h2>🍽️ Tu comida favorita</h2>
+            <div class="food-card">
+                <i class="fas fa-utensils"></i>
+                <h3>Carapulcra</h3>
+                <p>Así como este platillo tradicional, nuestro amor se hace más rico con el tiempo.</p>
+                <div class="food-heart">❤️</div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contador de tiempo juntos -->
+    <section class="counter-section">
+        <div class="counter-container">
+            <h2>Juntos desde el 6 de Abril</h2>
+            <div class="counter-grid">
+                <div class="counter-item">
+                    <span id="days" class="counter-number">0</span>
+                    <span class="counter-label">Días</span>
+                </div>
+                <div class="counter-item">
+                    <span id="hours" class="counter-number">0</span>
+                    <span class="counter-label">Horas</span>
+                </div>
+                <div class="counter-item">
+                    <span id="minutes" class="counter-number">0</span>
+                    <span class="counter-label">Minutos</span>
+                </div>
+                <div class="counter-item">
+                    <span id="seconds" class="counter-number">0</span>
+                    <span class="counter-label">Segundos</span>
+                </div>
+            </div>
+            <p class="love-message">Y cada segundo a tu lado es el mejor regalo, Natalie</p>
+            <p class="signature">Con todo mi amor, José Alexander ❤️</p>
+        </div>
+    </section>
+    
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
